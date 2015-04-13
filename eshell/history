@@ -1,0 +1,128 @@
+bower init
+clear
+ls
+bower install d3
+ls
+emacs index.html 
+touch poly.js
+ls
+ls
+clear
+ls
+venv
+env
+lsUSER=siah
+clear
+clear
+ls
+javac TestJunit.java
+export CLASSPATH=$CLASSPATH:/Library/Java/junit-4.11.jar
+CLASSPATH
+env
+echo $CLASSPATH
+export CLASSPATH=$CLASSPATH.:/Library/Java/junit-4.11.jar
+echo $CLASSPATH
+javac TestJunit.java
+java TestJunit.java
+java TestJunit
+clear
+rm TestJunit
+rm TestJunit.class 
+clear
+ls
+javac TestJunit.java 
+java TestJunit
+clear
+clear
+echo $CLASSPATH
+ls
+python SimpleHTTPServer -m
+python -m SimpleHTTPServer
+clear
+ls
+git status
+git add .
+git status
+git add .
+git status
+git commit -a -m "more shapes"
+git status
+git push
+clear
+ls
+man ascii
+man ascii 
+ls
+cd Documents/
+ls
+cd languages/
+ls
+cd Clojure
+ls
+lein learn-clj
+lein new learn-clj
+lein help
+lein help new
+ls
+cd
+ls
+cd .emacs.d/
+ls
+git pull
+clear
+ls
+cd ..
+ls
+mkdir  evaluation
+ls
+ls
+mkdir 
+clear
+git status
+cd .emacs.d/
+ls
+git satus
+git status
+evaluation
+ls
+evaluation
+ls
+mkdir  evaluation
+ls
+rm evaluatio/
+ls
+clear
+rm -rf evaluatio/
+ls
+clear
+ls
+cd customizations/
+ls
+(global-set-key (kbd "C-c a") 'my-macro)
+(global-set-key (kbd "C-c a") 'eshell-brew)
+ls
+ls
+clear
+ls
+clear
+ls
+cd Documents/
+ls
+cd languages/
+l
+cd lang
+ls
+cd Clojrue
+cd Clojure/
+ls
+cd learn-clj/
+ls
+cd ..
+ls
+rm -r learn-clj/
+ls
+clear
+ls
+lein help new
+lein help
+ls

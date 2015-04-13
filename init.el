@@ -101,6 +101,7 @@
 ;;;;
 ;; Customization
 ;;;;
+(set-face-attribute 'default nil :height 150)
 
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
@@ -130,3 +131,40 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+
+(setenv "MITSCHEME_LIBRARY_PATH"
+        "/Applications/mit-scheme.app/Contents/Resources")
+
+(defun electric-pair ()
+      "If at end of line, insert character pair without surrounding spaces.
+    Otherwise, just insert the typed character."
+      (interactive)
+      (if (eolp) (let (parens-require-spaces) (insert-pair)) (self-insert-command 1)))
+
+(setq electric-pair-pairs '(
+                            (?\" . ?\")
+                            (?\{ . ?\})
+                            ))
+(electric-pair-mode 1)
+(electric-indent-mode)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(custom-safe-themes
+   (quote
+    ("31a01668c84d03862a970c471edbd377b2430868eccf5e8a9aec6831f1a0908d" "1297a022df4228b81bc0436230f211bad168a117282c20ddcba2db8c6a200743" default))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+(put 'erase-buffer 'disabled nil)
+
+;; my first macros
+(global-set-key (kbd "C-c a") 'eshell)
+(global-set-key (kbd "C-.") 'end-of-buffer)
+(global-set-key (kbd "C-,") 'beginning-of-buffer)
