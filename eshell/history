@@ -1,33 +1,3 @@
-bower init
-clear
-ls
-bower install d3
-ls
-emacs index.html 
-touch poly.js
-ls
-ls
-clear
-ls
-venv
-env
-lsUSER=siah
-clear
-clear
-ls
-javac TestJunit.java
-export CLASSPATH=$CLASSPATH:/Library/Java/junit-4.11.jar
-CLASSPATH
-env
-echo $CLASSPATH
-export CLASSPATH=$CLASSPATH.:/Library/Java/junit-4.11.jar
-echo $CLASSPATH
-javac TestJunit.java
-java TestJunit.java
-java TestJunit
-clear
-rm TestJunit
-rm TestJunit.class 
 clear
 ls
 javac TestJunit.java 
@@ -126,3 +96,33 @@ ls
 lein help new
 lein help
 ls
+ls
+rm TestJunit.java
+rm TestJunit.class 
+clear
+cd .emacs.d/
+ls
+git status
+git add .
+git status
+git push
+git fork
+git remote add mymacs
+git remote add mymacs https://github.com/dsiah/emacs-for-clojure.git
+git status
+git add .
+git checkout mymacs
+git branch
+git status
+git commit -m "forked version changes"
+git push
+git remote
+git use mymacs
+git push mymacs
+clear
+ls
+clear
+ls
+git status
+git push --set-upstream mymacs
+clear

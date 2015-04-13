@@ -1,4 +1,5 @@
-# this is a Clojure-friendly emacs config
+# Fork of emacs config from Clojure-For-The-Brave-And-True
+### This is a Clojure-friendly emacs config
 
 If you're new to emacs, check out
 [this introductory tutorial](http://www.braveclojure.com/basic-emacs/)!
