@@ -168,3 +168,11 @@
 (global-set-key (kbd "C-c a") 'eshell)
 (global-set-key (kbd "C-.") 'end-of-buffer)
 (global-set-key (kbd "C-,") 'beginning-of-buffer)
+
+;; define clear in eshell
+(defun eshell/clear ()
+  "04Dec2001 - sailor, to clear the eshell buffer."
+  (interactive)
+  (let ((inhibit-read-only t))
+    (erase-buffer)))
+
