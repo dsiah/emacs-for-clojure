@@ -1,128 +1,128 @@
-clear
+cd ..
 ls
-javac TestJunit.java 
-java TestJunit
-clear
-clear
-echo $CLASSPATH
-ls
-python SimpleHTTPServer -m
-python -m SimpleHTTPServer
+npm install mongodb
 clear
 ls
 git status
-git add .
+git add ./
 git status
-git add .
-git status
-git commit -a -m "more shapes"
-git status
+git commit -m "initial API scaffolding"
 git push
 clear
 ls
-man ascii
-man ascii 
+clear
 ls
-cd Documents/
-ls
-cd languages/
-ls
-cd Clojure
-ls
-lein learn-clj
-lein new learn-clj
-lein help
-lein help new
-ls
-cd
-ls
-cd .emacs.d/
 ls
 git pull
-clear
+cd routes
+ls
 ls
 cd ..
 ls
-mkdir  evaluation
+node server.js 
+cd routes
 ls
+node ser
+node server.js
+cd ..
+sl
 ls
-mkdir 
+node server.js 
 clear
+node server.js 
+clear
+ls
+ls
 git status
-cd .emacs.d/
-ls
-git satus
+git add .
 git status
-evaluation
-ls
-evaluation
-ls
-mkdir  evaluation
-ls
-rm evaluatio/
-ls
+git commit -m "finished router scaffolding"
+git push
 clear
-rm -rf evaluatio/
-ls
-clear
-ls
-cd customizations/
-ls
-(global-set-key (kbd "C-c a") 'my-macro)
-(global-set-key (kbd "C-c a") 'eshell-brew)
 ls
 ls
 clear
 ls
+touch itts.py
+ls
+rm itts.py 
+ls
 clear
+ls
+git status
 ls
 cd Documents/
 ls
-cd languages/
-l
-cd lang
+cd Languages/
 ls
-cd Clojrue
-cd Clojure/
+cd Python/
 ls
-cd learn-clj/
+cd Nova-Course-Site/
+ls
+clear
+ls
+cd webapp/
+ls
+cd api/
 ls
 cd ..
 ls
-rm -r learn-clj/
+rm NovaCourse.py 
+ls
+rm bower.json 
+ls
+git status
+git commit -a -m "fixing levels of directories & increasing modularity"
+git status
+git push
+clear
 ls
 clear
 ls
-lein help new
-lein help
+cd api/
 ls
-ls
-rm TestJunit.java
-rm TestJunit.class 
+ls -l
+ls -la
 clear
-cd .emacs.d/
+ls
+cd Doc
+clear
+ls
+clear
 ls
 git status
 git add .
 git status
+git commit -m "fixing indentation -- Standard is now 4 space width"
 git push
-git fork
-git remote add mymacs
-git remote add mymacs https://github.com/dsiah/emacs-for-clojure.git
-git status
-git add .
-git checkout mymacs
-git branch
-git status
-git commit -m "forked version changes"
-git push
-git remote
-git use mymacs
-git push mymacs
+clear
+ls
+cd ls
+cls
+ls
+cd ..
+ls
+cd api/
+ls
+ls
+clear
+l
+mongo
 clear
 ls
 clear
 ls
-git status
-git push --set-upstream mymacs
+node server.js 
+node server.js 
 clear
+ls
+node server.js 
+node server.js 
+clear
+ls
+git status
+git commit -a -m "including DB examples for routes and improving readme"
+git push
+ls
+clear
+ls

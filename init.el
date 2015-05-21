@@ -152,7 +152,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(coffee-tab-width 2)
+ '(coffee-tab-width 4)
  '(custom-safe-themes
    (quote
     ("31a01668c84d03862a970c471edbd377b2430868eccf5e8a9aec6831f1a0908d" "1297a022df4228b81bc0436230f211bad168a117282c20ddcba2db8c6a200743" default))))
@@ -168,6 +168,21 @@
 (global-set-key (kbd "C-c a") 'eshell)
 (global-set-key (kbd "C-.") 'end-of-buffer)
 (global-set-key (kbd "C-,") 'beginning-of-buffer)
+(global-set-key (kbd "C-c v ") 'ace-jump-mode)
+
+;; BAN ARROW KEYS!!!!!!
+(global-unset-key (kbd "<left>"))
+(global-unset-key (kbd "<right>"))
+(global-unset-key (kbd "<up>"))
+(global-unset-key (kbd "<down>"))
+(global-unset-key (kbd "<C-left>"))
+(global-unset-key (kbd "<C-right>"))
+(global-unset-key (kbd "<C-up>"))
+(global-unset-key (kbd "<C-down>"))
+(global-unset-key (kbd "<M-left>"))
+(global-unset-key (kbd "<M-right>"))
+(global-unset-key (kbd "<M-up>"))
+(global-unset-key (kbd "<M-down>"))
 
 ;; define clear in eshell
 (defun eshell/clear ()
@@ -176,3 +191,5 @@
   (let ((inhibit-read-only t))
     (erase-buffer)))
 
+(setq-default indent-tabs-mode nil)
+(setq tab-width 4)
